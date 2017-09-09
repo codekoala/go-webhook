@@ -1,5 +1,6 @@
 package gitlab
 
+// See https://gitlab.com/help/user/project/integrations/webhooks.md#push-events
 type PushHook struct {
 	Hook
 

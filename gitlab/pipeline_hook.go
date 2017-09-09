@@ -1,5 +1,6 @@
 package gitlab
 
+// See https://gitlab.com/help/user/project/integrations/webhooks.md#pipeline-events
 type PipelineHook struct {
 	Hook
 
