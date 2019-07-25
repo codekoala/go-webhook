@@ -1,6 +1,0 @@
-package: github.com/codekoala/go-webhook
-import:
-- package: github.com/labstack/echo
-  version: ^3.2.3
-- package: github.com/json-iterator/go
-  version: ^1.0.0

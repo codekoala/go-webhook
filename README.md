@@ -1,10 +1,22 @@
 # go-webhook
-Helpers to deal with webhooks in Go.
+Helpers to deal with GitLab webhooks in Go.
 
-The primary purpose of this repository is to create Go structs to hold data from webhook request payloads. 
-Currently only support for [GitLab](https://docs.gitlab.com/ce/user/project/integrations/webhooks.html) has 
-been implemented.
+Adapted GitLab Version: `CE 11.9.8`
 
 ## Example Usage
 
-See the `main.go` in the repository root for an example for how to work with GitLab webhook requests.
+```go
+// request send by GitLab
+var body []byte
+
+kind, hook, err := ParseBody(body)
+
+if mrHook, ok := hook.(*MergeRequestHook); ok {
+	// do something
+}
+```
+
+## Event Adapted to Current GitLab Version
+
+- [x] Push
+- [x] Merge Request

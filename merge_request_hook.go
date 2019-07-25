@@ -5,5 +5,9 @@ type MergeRequestHook struct {
 	Hook
 
 	User             User         `json:"user"`
+	Project          Project      `json:"project"`
+	Repository       Repository   `json:"repository"`
 	ObjectAttributes MergeRequest `json:"object_attributes"`
+	Labels           []Label      `json:"labels"`
+	Changes          Changes      `json:"changes"`
 }
