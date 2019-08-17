@@ -20,8 +20,9 @@ func foo(body []byte) {
 }
 ```
 
-## Event Adapted to Current GitLab Version(unit test covered)
+## Unit Test Covered Events
 
 - [x] Push
 - [x] Merge Request
 - [x] Tag
+- [x] Issue

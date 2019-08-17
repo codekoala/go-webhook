@@ -11,4 +11,5 @@ type IssueHook struct {
 	Assignees        []User     `json:"assignees"`
 	Assignee         *User      `json:"assignee"`
 	Labels           []Label    `json:"labels"`
+	Changes          *Changes   `json:"changes"`
 }
