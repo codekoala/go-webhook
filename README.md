@@ -22,7 +22,14 @@ func foo(body []byte) {
 
 ## Unit Test Covered Events
 
-- [x] Push
-- [x] Merge Request
-- [x] Tag
-- [x] Issue
+- [x] Push `PushHook`
+- [x] Tag `TagHook`
+- [x] Issue `IssueHook`
+- [x] Comment on Commit `NoteHook`
+- [ ] Comment on Merge Request
+- [ ] Comment on Issue
+- [ ] Comment on Code Snippet
+- [x] Merge Request `MergeRequestHook`
+- [ ] Wiki Page
+- [ ] Pipeline
+- [ ] Build
