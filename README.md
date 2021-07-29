@@ -33,3 +33,4 @@ func foo(body []byte) {
 - [ ] Wiki Page
 - [ ] Pipeline
 - [ ] Build
+foobar
